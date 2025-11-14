@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — surfacearch</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .muted {
+        color: rgba(0, 0, 0, 0.55);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">
+        <img id="pfp-navbar" src="images/pfp.webp" alt="logo" />
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Projects</h1>
+
+      <!-- Featured project showcase -->
+      <section aria-labelledby="featured-project" style="margin-top: 28px">
+        <h2 id="featured-project">Featured project</h2>
+
+        <div class="projects-grid" style="margin-top: 16px">
+          <article class="project-card" aria-labelledby="proj-voip-title">
+            <a class="project-screenshot" href="https://voiprzekaz.surfacearch.dev" target="_blank" rel="noopener">
+              <img src="/images/VoIPrzekaz.svg" alt="VoIPrzekaz logo" class="project-logo" />
+            </a>
+
+            <div class="project-meta">
+              <h3 id="proj-voip-title" class="project-title">voiprzekaz</h3>
+              <p class="project-desc muted">Public community VoIP server (work in progress) running Asterisk. Provides SIP access for low-latency VoIP testing and experimentation. Join the Discord or email for access, updates and support.</p>
+
+              <p class="project-tags">
+                <strong>Tech:</strong>
+                <span>Asterisk</span>
+                <span>SIP</span>
+                <span>VoIP</span>
+              </p>
+
+              <div class="project-actions">
+                <a class="btn btn-primary" href="https://voiprzekaz.surfacearch.dev" target="_blank" rel="noopener">Open website</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="dcdiv">
+        <a id="discord" href="https://discord.com/users/713444975962226739"
+          >DISCORD</a
+        >
+      </div>
+      <div id="maildiv">
+        <a id="mail" href="mailto:u168_barjer_waw@technischools.com">MAIL</a>
+      </div>
+      <div id="githubdiv"><a href="https://github.com/SurArcTS">GITHUB</a></div>
+    </footer>
+  </body>
+</html>
